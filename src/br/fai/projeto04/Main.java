@@ -22,6 +22,7 @@ public class Main {
 		int i=0;
 		while(i< 20) {
 			System.out.println("i:" +i);
+			i++;
 		}
 	}
 	
@@ -30,13 +31,14 @@ public class Main {
 		int i=0;
 		do {
 			System.out.println("k: " +i);
+			i=i+1;
 		}while(i<20);
 	}
 	private void usandoFor () {
 		System.out.println("Usando for");
 		
 		for (int i = 0; i < 20; i++) {
-			System.out.println("j:" i++);
+			System.out.println("j:" +i);
 			
 		}
 	}
